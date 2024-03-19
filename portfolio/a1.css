@@ -1,0 +1,10 @@
+.reveal{
+    position: relative;
+    transform: translateY(120px);
+    opacity: 0;
+    transition: all 0.5s cubic-bezier(0, 0, 0.54, 0.94);
+}
+.reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
+}

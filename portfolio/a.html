@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayananshu Koner | Personal website</title>
+    <link rel="stylesheet" href="a.css">
+    <link rel="stylesheet" href="a1.css">
+    <link rel="stylesheet" href="chatbot.css">
+    <link rel="stylesheet" href="showChatbot.css">
+</head>
+<body>
+
+    <button class="chatbot-toogler">
+        <div class="robot-div"><img width="40px" src="robot-solid.svg" alt="" srcset=""></div>
+        <div class="close-div" style="padding-top: 4px;"><img  width="30px" src="close.svg" alt="" srcset=""></div>
+    </button>
+
+    <div class="chat-container">
+        <div class="container">
+            <div class="chat-header">
+                <img height="30" width="30" src="robot-solid.svg" alt="" srcset="">
+                <div class="title">Chat with us</div>
+            </div>
+            <div class="chat-body"></div>
+            <div class="chat-input">
+                <div class="input-sec">
+                    <input type="text" id="txtInput" placeholder="Type here">
+                </div>
+                <div class="send">
+                    <img height="18" width="18" src="send-message.png" alt="send">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav>
+        <div class="nav-items">  
+            <div class="name">Ayananshu Koner</div>
+            <div class="options">
+                <div class="nav-home"><button>Home</button></div>
+                <div class="nav-about"><button>About</button></div>
+                <div class="nav-skills"><button>Skills</button></div>
+                <div class="nav-works"><button>Works</button></div>
+                <div class="nav-contact"><button>Contact</button></div>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="first" id="first">
+        <div class="first-items">
+            <div class="first-description">
+                <div class="first-box1"><span>Hi Friends!</span></div>
+                <div class="first-name">I am Ayananshu Koner</div>
+                <div class="first-about">I am a passionate</div>
+                <div class="first-about-types">Developer_</div>
+
+                <div class="social">
+                    <!-- window.open(`https://www.facebook.com`, 'popUpWindow','height=400,width=600,left=10,top=10,,scrollbars=yes,menubar=yes'); -->
+                    <button type="button" value="Redirect" class="linkedin" onclick="window.open(`http://www.linkedin.com/in/ayananshu-koner`)">+LINKEDIN</button>
+                    <button type="button" value="Redirect" class="github" onclick="window.open(`https://github.com/AyananshuK`)" >+GITHUB</button>
+                    <button type="button" value="Redirect" class="instagram" onclick="window.open(`https://www.instagram.com/ayananshu_koner?igsh=MW95ZjhienlqeXBsdQ==`)">+INSTAGRAM</button>
+                </div>
+            </div>
+            <div class="my-image"><img src="Assets/img2.png" alt=""></div>
+        </div>
+    </div>
+    
+    
+    <div class="my-content">
+        <div class="my-content-items">
+            <img src="Assets/img.jpg" alt="">
+            
+            <div class="about-me">
+                <h1>About Me</h1>
+                <p>
+                    Hey everyone, I am Ayananshu Koner and a passionate computer science student in my second year here at Vellore Institute of Technology, Vellore. I am fascinated by the world of technology and the ability to create solutions through code. I have a strong foundation in programming languages like C++ and Java. I am also interested in web programming, cybersecurity and AI. Outside of academics, I love playing football or cricket and I am always eager to learn new things.
+                </p>
+                <h1>Education</h1>
+                <div style="padding-top: 40px; font-size: 18px; font-weight: 700;">B. Tech. Computer Science and Engineering , 2022-present</div>
+                <div>Vellore Institute of Technology , Vellore</div>
+                <div style="padding-top: 40px; font-size: 18px; font-weight: 700;">Higher Secondary Education , 2020 - 2022</div>
+                <div>Singur Mahamaya High School, Singur</div>
+            </div> 
+        </div>
+
+        <div class="my-skills">
+            <h1>My Skills</h1>
+            <div class="skills">
+                <div class="skill-item js"><img src="Assets/js.png" alt=""></div>
+                <div class="skill-item html"><img src="Assets/html.png" alt=""></div>
+                <div class="skill-item css"><img src="Assets/css.png" alt=""></div>
+                <div class="skill-item cpp"><img src="Assets/cpp.png" alt=""></div>
+                <div class="skill-item flutter"><img src="Assets/flutter.jpg" alt=""></div>
+                <div class="skill-item unity"><img src="Assets/unity.jpg" alt=""></div>
+            </div>
+        </div>
+
+        <div class="projects">
+            <h1>My Latest Work</h1>
+            <div class="project-videos">
+                <div class="videos game"><video src="Assets/video1.mp4" loop autoplay muted></video></div>
+            </div>
+            <!-- <div class="flutter-prj">
+                <div class="proj-videocall"><img src="Assets/videocall.png" alt="" srcset=""></div>
+                <div class="proj-med"><img src="Assets/med.png" alt="" srcset=""></div>
+            </div> -->
+        </div>
+    </div>
+
+    <footer class="footer">
+        <h5>CONTACT ME</h5>
+        <h1>Have a Project?</h1>
+        <div class="contact-details">
+            <div class="my-address contact">
+                <h5>MY ADDRESS:</h5>
+                <div>Singur, Hooghly, West Bengal, 712409</div>
+            </div>
+            <div class="my-email contact">
+                <h5>MY EMAIL:</h5>
+                <div>akoner001@gmail.com</div>
+            </div>
+            <div class="my-phone contact">
+                <h5>MY PHONE:</h5>
+                <div>+91 6289640963</div>
+            </div>
+        </div>
+
+        <div class="message-form">
+            <form class="form1" name="form1" id="form1" action="message.php" method="post" onsubmit="return submitForm()">
+                <div class="form1-name-email">
+                    <input class="name" type="text" name="name" id="name" placeholder="Name">
+                    <input class="email" type="email" name="email" id="email" placeholder="Email">
+                </div>
+                <div><input class="subject" type="text" name="subject" id="subject" placeholder="Subject"></div>
+                <div> 
+                    <textarea class="message-box" name="message-box" id="message-box" placeholder="Enter your message"></textarea>
+                </div>
+                <div class="form-button-statusText">
+                    <button class="form-button" type="submit" value="form1">SEND MESSAGE</button>
+                    <span class="statusText">Sending your message...</span>
+                </div>
+            </form>
+        </div>
+    </footer>
+
+    <script src="a.js"></script>
+    <script src="chatbot.js"></script>
+    <script src="showChatbot.js"></script>
+</body>
+</html>
